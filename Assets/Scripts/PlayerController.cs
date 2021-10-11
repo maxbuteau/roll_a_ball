@@ -55,4 +55,12 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
     }
+
+    public void SpeedUp() {
+        speed *= 5;
+    }
+    
+    public void SlowDown() {
+        speed /= 5;
+    }
 }
